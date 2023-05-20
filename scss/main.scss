@@ -1,7 +1,6 @@
 @import"./variables/variables";
 @import"./Footer/footer";
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Delicious+Handrawn&family=Kanit&family=Roboto+Mono&display=swap');
-
 body {
     background: url(https://cdn.pixabay.com/photo/2016/07/10/00/05/background-1507090_1280.jpg)
 }
@@ -347,7 +346,8 @@ h1 {
     }
 
     .ancho-maximo {
-        width: 350px;
+        width: 400px;
+        height: 250px;
     }
 
     #imagen-centro {

@@ -270,7 +270,8 @@ h1 {
     justify-content: center;
     margin: auto; }
   .ancho-maximo {
-    width: 350px; }
+    width: 400px;
+    height: 250px; }
   #imagen-centro {
     display: flex;
     justify-content: center;
