@@ -168,12 +168,20 @@ h1 {
 
 .stock1img {
     display: flex;
-    height: 500px;
-    width: 850px;
+    
     justify-content: center;
     margin: auto;
 }
-
+.talles {
+    display: flex;
+}
+.stock2img{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    margin: 20px;
+    
+}
 .catalogo1 {
     display: flex;
     flex-direction: column;
@@ -202,7 +210,20 @@ h1 {
         background-color: map-get($map: $colores, $key: "gris2");
     }
 }
+.precio {
+    background-color: map-get($map: $colores, $key: "blanco-oscuro");
+    text-align: center;
+    color: map-get($map: $colores, $key: "negro") ;
+    font-family: inherit;
+    font-size: 20px;
 
+    height: 50px;
+    line-height: 50px;
+&:hover {
+    color: map-get($map: $colores, $key: "celeste-oscuro");
+    cursor: pointer;
+}
+}
 
 
 .ubicacion {
@@ -309,6 +330,7 @@ h1 {
         justify-content: center;
         margin: auto;
     }
+    
 
     #imagen-centro {
         display: flex;
@@ -344,7 +366,14 @@ h1 {
         justify-content: center;
         margin: auto;
     }
+.stock2img{
+        width: 85%;
+        display: flex;
+    justify-content: center;
+    height: 250px;
+    margin-top: 20px;
 
+    }
     .ancho-maximo {
         width: 400px;
         height: 250px;
@@ -370,7 +399,7 @@ h1 {
     
     position: fixed;
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     background-color: map-get($map: $colores, $key: "azul-oscuro");
     top: 100px;
     left: -125%;
@@ -397,10 +426,26 @@ h1 {
         left: 0;
         
     }
-    
-
+    .formcont {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    .tamañoform{
+        height: 45px; width: 250px;
+    }
+    .tamañoconsultas{
+        width: 250px; height: 100px;
+    }
+    .tamañobtm {
+        width: 75px;
+    }
+    }
     .talles {
         flex-direction: column;
         text-align: center;
+    }
+    .ancho-maximo {
+        width: 300px;
+        height: 150px;
     }
 }
