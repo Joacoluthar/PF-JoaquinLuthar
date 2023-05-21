@@ -1,0 +1,48 @@
+.catalogo1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        padding: 15px;
+        width: 600px;
+        height: 600px;
+    }
+}
+
+
+.precio {
+    background-color: map-get($map: $colores, $key: "blanco-oscuro");
+    text-align: center;
+    color: map-get($map: $colores, $key: "negro");
+    font-family: inherit;
+    font-size: 20px;
+
+    height: 50px;
+    line-height: 50px;
+
+    &:hover {
+        color: map-get($map: $colores, $key: "celeste-oscuro");
+        cursor: pointer;
+    }
+}
+
+
+.ancho-maximo {
+    width: 1000px;
+
+}
+
+#galeria .col-lg-4 {
+    padding: 25px;
+    margin: 0 !important;
+}
+
+#galeria img {
+    width: 100%;
+    height: 250px;
+}
+
+#galeria img:hover {
+    border: 5px solid map-get($map: $colores, $key: "celeste-claro");
+}
